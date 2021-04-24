@@ -1,0 +1,225 @@
+2021-04-07 23:39:30.486  INFO 18688 --- [http-nio-8081-exec-8] c.e.project.service.UserServiceImpl      : user :Optional[KinderGarden [id=4]]
+2021-04-07 23:41:47.185  INFO 18688 --- [http-nio-8081-exec-1] c.e.project.service.UserServiceImpl      : user :Optional[Parent [id=8, firstNameChild=e, lastNameChild=f, age=5, health=g, inscription=  id  3  statut  active, Events=[Event [idEvent=4, Subject=evenemnt traditionnel , Description=tradition, startHour=5, EndHour=7, date=1995-07-01, nbrlike=60, Name=tunisie, Location=Kairouan, JackpotDonation=10.0]], comments=[]]]
+2021-04-07 23:44:41.745  INFO 18688 --- [http-nio-8081-exec-4] c.e.p.service.KinderGardenServiceImpl    : KinderGarden :Optional[KinderGarden [id=1]]
+2021-04-07 23:45:07.988  INFO 4468 --- [main] c.e.p.InscriptionServiceImplAddTest      : Starting InscriptionServiceImplAddTest using Java 1.8.0_271 on DESKTOP-0AERG9V with PID 4468 (started by user in C:\Users\user\Desktop\Jardin-d-enfant)
+2021-04-07 23:45:07.990  INFO 4468 --- [main] c.e.p.InscriptionServiceImplAddTest      : No active profile set, falling back to default profiles: default
+2021-04-07 23:45:08.667  INFO 4468 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-07 23:45:08.806  INFO 4468 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 127 ms. Found 13 JPA repository interfaces.
+2021-04-07 23:45:09.488  INFO 4468 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-07 23:45:09.553  INFO 4468 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-07 23:45:09.759  INFO 4468 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-07 23:45:10.290  INFO 4468 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-07 23:45:10.473  INFO 4468 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-07 23:45:10.489  INFO 4468 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-04-07 23:45:11.817  INFO 4468 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-07 23:45:11.826  INFO 4468 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 23:45:11.842  INFO 4468 --- [main] com.esprit.project.TwilioInitializer     : Twilio initialized ... with account sid ACcedffe08bbff66cf00f7293c985cef24 
+2021-04-07 23:45:12.790  WARN 4468 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-07 23:45:13.072  INFO 4468 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-07 23:45:13.434  WARN 4468 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-04-07 23:45:13.676  INFO 4468 --- [main] c.e.p.InscriptionServiceImplAddTest      : Started InscriptionServiceImplAddTest in 6.062 seconds (JVM running for 8.089)
+2021-04-07 23:45:14.125  WARN 4468 --- [main] o.h.e.loading.internal.LoadContexts      : HHH000100: Fail-safe cleanup (collections) : org.hibernate.engine.loading.internal.CollectionLoadContext@c6c84fa<rs=HikariProxyResultSet@132753462 wrapping Result set representing update count of -1>
+2021-04-07 23:45:14.125  WARN 4468 --- [main] o.h.e.l.internal.CollectionLoadContext   : HHH000160: On CollectionLoadContext#cleanup, localLoadingCollectionKeys contained [1] entries
+2021-04-07 23:45:14.152  INFO 4468 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-07 23:45:14.157  INFO 4468 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 23:45:14.160  INFO 4468 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-07 23:45:14.176  INFO 4468 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-07 23:45:26.358  INFO 18688 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-04-07 23:45:26.726  INFO 18688 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-07 23:45:26.732  INFO 18688 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 23:45:26.732  INFO 18688 --- [RMI TCP Connection(2)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-04-07 23:45:26.773  INFO 18688 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-07 23:45:26.785  INFO 18688 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-07 23:45:36.023  INFO 3568 --- [main] c.e.project.JardinDEnfantApplication     : Starting JardinDEnfantApplication using Java 1.8.0_271 on DESKTOP-0AERG9V with PID 3568 (C:\Users\user\Desktop\Jardin-d-enfant\target\classes started by user in C:\Users\user\Desktop\Jardin-d-enfant)
+2021-04-07 23:45:36.027  INFO 3568 --- [main] c.e.project.JardinDEnfantApplication     : No active profile set, falling back to default profiles: default
+2021-04-07 23:45:36.676  INFO 3568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-07 23:45:36.778  INFO 3568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 13 JPA repository interfaces.
+2021-04-07 23:45:37.439  INFO 3568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-04-07 23:45:37.452  INFO 3568 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-07 23:45:37.452  INFO 3568 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-07 23:45:37.564  INFO 3568 --- [main] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2021-04-07 23:45:37.565  INFO 3568 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1489 ms
+2021-04-07 23:45:37.944  INFO 3568 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-07 23:45:38.011  INFO 3568 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-07 23:45:38.195  INFO 3568 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-07 23:45:38.320  INFO 3568 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-07 23:45:38.542  INFO 3568 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-07 23:45:38.558  INFO 3568 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-04-07 23:45:39.868  INFO 3568 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-07 23:45:39.876  INFO 3568 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 23:45:39.889  INFO 3568 --- [main] com.esprit.project.TwilioInitializer     : Twilio initialized ... with account sid ACcedffe08bbff66cf00f7293c985cef24 
+2021-04-07 23:45:40.495  WARN 3568 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-07 23:45:40.605  INFO 3568 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-07 23:45:40.979  WARN 3568 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-04-07 23:45:41.081  INFO 3568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/SpringMVC'
+2021-04-07 23:45:41.091  INFO 3568 --- [main] c.e.project.JardinDEnfantApplication     : Started JardinDEnfantApplication in 5.488 seconds (JVM running for 6.425)
+2021-04-07 23:46:15.105  INFO 3568 --- [http-nio-8081-exec-2] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-07 23:46:15.106  INFO 3568 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-07 23:46:15.107  INFO 3568 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-07 23:46:37.925  INFO 11204 --- [main] com.esprit.project.EventServiceImplTest  : Starting EventServiceImplTest using Java 1.8.0_271 on DESKTOP-0AERG9V with PID 11204 (started by user in C:\Users\user\Desktop\Jardin-d-enfant)
+2021-04-07 23:46:37.928  INFO 11204 --- [main] com.esprit.project.EventServiceImplTest  : No active profile set, falling back to default profiles: default
+2021-04-07 23:46:38.571  INFO 11204 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-07 23:46:38.735  INFO 11204 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 155 ms. Found 13 JPA repository interfaces.
+2021-04-07 23:46:39.384  INFO 11204 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-07 23:46:39.438  INFO 11204 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-07 23:46:39.640  INFO 11204 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-07 23:46:40.156  INFO 11204 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-07 23:46:40.334  INFO 11204 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-07 23:46:40.354  INFO 11204 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-04-07 23:46:41.708  INFO 11204 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-07 23:46:41.719  INFO 11204 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 23:46:41.738  INFO 11204 --- [main] com.esprit.project.TwilioInitializer     : Twilio initialized ... with account sid ACcedffe08bbff66cf00f7293c985cef24 
+2021-04-07 23:46:42.716  WARN 11204 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-07 23:46:43.125  INFO 11204 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-07 23:46:43.515  WARN 11204 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-04-07 23:46:43.768  INFO 11204 --- [main] com.esprit.project.EventServiceImplTest  : Started EventServiceImplTest in 6.247 seconds (JVM running for 7.804)
+2021-04-07 23:46:44.213  INFO 11204 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-07 23:46:44.218  INFO 11204 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 23:46:44.220  INFO 11204 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-07 23:46:44.235  INFO 11204 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-07 23:47:10.255  INFO 18584 --- [main] c.e.p.KinderGardenServiceImplAddTest     : Starting KinderGardenServiceImplAddTest using Java 1.8.0_271 on DESKTOP-0AERG9V with PID 18584 (started by user in C:\Users\user\Desktop\Jardin-d-enfant)
+2021-04-07 23:47:10.257  INFO 18584 --- [main] c.e.p.KinderGardenServiceImplAddTest     : No active profile set, falling back to default profiles: default
+2021-04-07 23:47:10.939  INFO 18584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-07 23:47:11.088  INFO 18584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 139 ms. Found 13 JPA repository interfaces.
+2021-04-07 23:47:11.802  INFO 18584 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-07 23:47:11.857  INFO 18584 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-07 23:47:12.066  INFO 18584 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-07 23:47:12.578  INFO 18584 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-07 23:47:12.764  INFO 18584 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-07 23:47:12.779  INFO 18584 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-04-07 23:47:14.097  INFO 18584 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-07 23:47:14.106  INFO 18584 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 23:47:14.122  INFO 18584 --- [main] com.esprit.project.TwilioInitializer     : Twilio initialized ... with account sid ACcedffe08bbff66cf00f7293c985cef24 
+2021-04-07 23:47:15.155  WARN 18584 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-07 23:47:15.474  INFO 18584 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-07 23:47:15.845  WARN 18584 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-04-07 23:47:16.413  INFO 18584 --- [main] c.e.p.KinderGardenServiceImplAddTest     : Started KinderGardenServiceImplAddTest in 6.522 seconds (JVM running for 8.532)
+2021-04-07 23:47:16.910  INFO 18584 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-07 23:47:16.921  INFO 18584 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 23:47:16.924  INFO 18584 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-07 23:47:16.946  INFO 18584 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-07 23:47:25.064  INFO 10488 --- [main] c.e.p.KinderGardenServiceImplAddTest     : Starting KinderGardenServiceImplAddTest using Java 1.8.0_271 on DESKTOP-0AERG9V with PID 10488 (started by user in C:\Users\user\Desktop\Jardin-d-enfant)
+2021-04-07 23:47:25.066  INFO 10488 --- [main] c.e.p.KinderGardenServiceImplAddTest     : No active profile set, falling back to default profiles: default
+2021-04-07 23:47:25.807  INFO 10488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-07 23:47:25.958  INFO 10488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 137 ms. Found 13 JPA repository interfaces.
+2021-04-07 23:47:26.668  INFO 10488 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-07 23:47:26.731  INFO 10488 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-07 23:47:26.931  INFO 10488 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-07 23:47:27.438  INFO 10488 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-07 23:47:27.606  INFO 10488 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-07 23:47:27.622  INFO 10488 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-04-07 23:47:28.889  INFO 10488 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-07 23:47:28.898  INFO 10488 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 23:47:28.916  INFO 10488 --- [main] com.esprit.project.TwilioInitializer     : Twilio initialized ... with account sid ACcedffe08bbff66cf00f7293c985cef24 
+2021-04-07 23:47:29.902  WARN 10488 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-07 23:47:30.250  INFO 10488 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-07 23:47:30.590  WARN 10488 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-04-07 23:47:30.864  INFO 10488 --- [main] c.e.p.KinderGardenServiceImplAddTest     : Started KinderGardenServiceImplAddTest in 6.184 seconds (JVM running for 7.673)
+2021-04-07 23:47:31.262  INFO 10488 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-07 23:47:31.273  INFO 10488 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 23:47:31.279  INFO 10488 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-07 23:47:31.299  INFO 10488 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-07 23:47:57.336  INFO 22176 --- [main] c.e.project.ParentServiceImplAddTest     : Starting ParentServiceImplAddTest using Java 1.8.0_271 on DESKTOP-0AERG9V with PID 22176 (started by user in C:\Users\user\Desktop\Jardin-d-enfant)
+2021-04-07 23:47:57.336  INFO 22176 --- [main] c.e.project.ParentServiceImplAddTest     : No active profile set, falling back to default profiles: default
+2021-04-07 23:47:57.960  INFO 22176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-07 23:47:58.101  INFO 22176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 120 ms. Found 13 JPA repository interfaces.
+2021-04-07 23:47:58.837  INFO 22176 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-07 23:47:58.900  INFO 22176 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-07 23:47:59.130  INFO 22176 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-07 23:47:59.620  INFO 22176 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-07 23:47:59.790  INFO 22176 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-07 23:47:59.805  INFO 22176 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-04-07 23:48:01.038  INFO 22176 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-07 23:48:01.052  INFO 22176 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 23:48:01.068  INFO 22176 --- [main] com.esprit.project.TwilioInitializer     : Twilio initialized ... with account sid ACcedffe08bbff66cf00f7293c985cef24 
+2021-04-07 23:48:01.928  WARN 22176 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-07 23:48:02.212  INFO 22176 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-07 23:48:02.481  WARN 22176 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-04-07 23:48:02.697  INFO 22176 --- [main] c.e.project.ParentServiceImplAddTest     : Started ParentServiceImplAddTest in 5.708 seconds (JVM running for 7.14)
+2021-04-07 23:48:03.033  INFO 22176 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-07 23:48:03.039  INFO 22176 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 23:48:03.041  INFO 22176 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-07 23:48:03.056  INFO 22176 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-07 23:48:45.179  INFO 1840 --- [main] c.e.p.InscriptionServiceImplAddTest      : Starting InscriptionServiceImplAddTest using Java 1.8.0_271 on DESKTOP-0AERG9V with PID 1840 (started by user in C:\Users\user\Desktop\Jardin-d-enfant)
+2021-04-07 23:48:45.179  INFO 1840 --- [main] c.e.p.InscriptionServiceImplAddTest      : No active profile set, falling back to default profiles: default
+2021-04-07 23:48:45.918  INFO 1840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-07 23:48:46.081  INFO 1840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 150 ms. Found 13 JPA repository interfaces.
+2021-04-07 23:48:46.728  INFO 1840 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-07 23:48:46.799  INFO 1840 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-07 23:48:47.010  INFO 1840 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-07 23:48:47.503  INFO 1840 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-07 23:48:47.663  INFO 1840 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-07 23:48:47.679  INFO 1840 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-04-07 23:48:48.970  INFO 1840 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-07 23:48:48.980  INFO 1840 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 23:48:48.997  INFO 1840 --- [main] com.esprit.project.TwilioInitializer     : Twilio initialized ... with account sid ACcedffe08bbff66cf00f7293c985cef24 
+2021-04-07 23:48:49.923  WARN 1840 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-07 23:48:50.302  INFO 1840 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-07 23:48:50.592  WARN 1840 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-04-07 23:48:50.814  INFO 1840 --- [main] c.e.p.InscriptionServiceImplAddTest      : Started InscriptionServiceImplAddTest in 5.979 seconds (JVM running for 7.511)
+2021-04-07 23:48:51.185  INFO 1840 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-07 23:48:51.193  INFO 1840 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-07 23:48:51.197  INFO 1840 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-07 23:48:51.214  INFO 1840 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-07 23:54:17.574  INFO 3568 --- [http-nio-8081-exec-9] c.e.project.service.UserServiceImpl      : user :Optional.empty
+2021-04-07 23:55:57.011  INFO 3568 --- [http-nio-8081-exec-2] c.e.project.service.UserServiceImpl      : user :Optional[Parent [id=9, firstNameChild=bvv, lastNameChild=hhh, age=44, health=fvggv, inscription=  id  5  statut  active, Events=[Event [idEvent=1, Subject=evenemnt traditionnel , Description=tradition, startHour=5, EndHour=7, date=1995-07-01, nbrlike=60, Name=tunisie, Location=Kairouan, JackpotDonation=10.0]], comments=[]]]
+2021-04-07 23:58:41.502 ERROR 3568 --- [http-nio-8081-exec-6] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/SpringMVC] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at com.esprit.project.service.EventServiceImpl.updateEvents(EventServiceImpl.java:80) ~[classes/:na]
+	at com.esprit.project.service.EventServiceImpl$$FastClassBySpringCGLIB$$587502af.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.5.jar:5.3.5]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.3.5.jar:5.3.5]
+	at com.esprit.project.service.EventServiceImpl$$EnhancerBySpringCGLIB$$8095e097.updateEvents(<generated>) ~[classes/:na]
+	at com.esprit.project.control.EventRestController.modifyUser(EventRestController.java:100) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_271]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_271]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_271]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.44.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.5.jar:5.3.5]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.44.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.5.jar:5.3.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_271]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_271]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.44.jar:9.0.44]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_271]
+
