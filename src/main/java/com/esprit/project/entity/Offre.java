@@ -1,6 +1,6 @@
 package com.esprit.project.entity;
 
-import java.io.Serializable;
+/*import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 import javax.persistence.CascadeType;
@@ -22,9 +22,6 @@ import javax.persistence.TemporalType;
 
 public class Offre implements Serializable {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 	
 	@Id
@@ -107,7 +104,7 @@ public class Offre implements Serializable {
 	public static long getSerialversionuid() {
 		return serialVersionUID;
 	}
-	
+	*/
 	
 	
 	
@@ -138,7 +135,7 @@ public class Offre implements Serializable {
 	
 	
 	
-	@Override
+/*	@Override
 	public String toString() {
 		return "Offre [id=" + id + ", prix=" + prix + ", typeOffre=" + typeOffre + ", dateDebut=" + dateDebut
 				+ ", dateFin=" + dateFin + ", description=" + description +"]";
@@ -159,4 +156,4 @@ public class Offre implements Serializable {
 	
 	
 
-}
+}*/

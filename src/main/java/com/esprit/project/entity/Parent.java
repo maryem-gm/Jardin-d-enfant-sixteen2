@@ -42,8 +42,9 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 
 
 @Entity
-@Table(name="T_PARENT")
+@Table(name="t_parent")
 @PrimaryKeyJoinColumn(name = "id")
+
 public class Parent extends User {
 	private static final long serialVersionUID = 1l;
 	
@@ -70,12 +71,11 @@ public class Parent extends User {
 	KinderGarden kindergarten;
 	
 	@OneToMany(mappedBy="parent",cascade=CascadeType.ALL)
-	//@JoinColumn(name = "id_parent")
 	private List<Rdv> rdvs;
 	
-	@ManyToMany(cascade = CascadeType.ALL)
+	/*@ManyToMany(cascade = CascadeType.ALL)
 	@JsonIgnore
-	private Set<Offre> OffreParent;
+	private Set<Offre> OffreParent;*/
 	
 	
 	/*@ManyToMany( cascade=  CascadeType.ALL )
@@ -315,7 +315,7 @@ public class Parent extends User {
 	}
 
 	
-	public List<Offre> getOffres() {
+/*public List<Offre> getOffres() {
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -332,7 +332,7 @@ public class Parent extends User {
 	public List<Offre> getOffres1() {
 		// TODO Auto-generated method stub
 		return null;
-	}
+	}*/
 
 
 	

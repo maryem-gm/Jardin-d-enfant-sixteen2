@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 
 import com.esprit.project.entity.CategoryOfReclamation;
 import com.esprit.project.entity.KinderGarden;
-
+import com.esprit.project.entity.Parent;
 import com.esprit.project.entity.Reclamation;
 import com.esprit.project.repository.KinderGardenRepository;
 import com.esprit.project.repository.ParentRepository;
@@ -154,8 +154,14 @@ public class ReclamationService implements IReclamationService {
 			
 			
 		}
+		@Override
+		public void affecterReclamationAParent(Long recId, Long id) {
+			Parent p = parentRepository.findById(id).get();
+			Reclamation r= reclamationRepository.findById(recId).get();
+			r.setParent(p);
+			reclamationRepository.save(r);
 
 
 }
-
+}
 

@@ -1,6 +1,6 @@
 package com.esprit.project.entity;
 
-public enum TypeOffre {
+/*public enum TypeOffre {
 	BUS, QUANTINE, INSCRIPTION, EVENEMENTS
 
-}
+}*/

@@ -1,6 +1,6 @@
 package com.esprit.project.service;
 
-import java.util.List;
+/*import java.util.List;
 import java.util.Map;
 
 import com.esprit.project.entity.Offre;
@@ -21,4 +21,4 @@ public interface IOffreService {
 	List<Offre> filterOffre(TypeOffre typeOffre);
 	Map<Integer, String> getOffreByPrice();	
 	
-}
+}*/

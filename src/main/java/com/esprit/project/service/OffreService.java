@@ -1,6 +1,6 @@
 package com.esprit.project.service;
 
-import java.util.ArrayList;
+/*import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
@@ -97,20 +97,20 @@ public class OffreService implements IOffreService {
 				System.out.println("P "+P.get());
 				if(P.isPresent()){
 					System.out.println("Parent is present");
-					System.out.println(P.get().getOffres());
+					System.out.println(P.get().getOffreParent());
 					P.get().getOffreParent().add(o.get());
 					/*o.get().setParents((List<Parent>) P.get());
 					OffreRepository.save(o.get());
 					P.get().getOffres().add(o.get());
 					System.out.println(P.get().getOffres());*/
-					parentRepository.save(P.get());
-					return "offre associated to Parent";
-				}
-			}
-			return "A problem occured";
-	}
-		
-		@Override
+			//	parentRepository.save(P.get());
+				//	return "offre associated to Parent";
+				//}	
+			//} 
+			//return "A problem occured";
+	//}
+	
+	/*	@Override
 	 	public int  getNbrParticipants(Long idOffre) {
 			int nbParticipants=0;
 	 		System.out.println("Present");
@@ -156,5 +156,5 @@ public class OffreService implements IOffreService {
 		
 		
 		
-}
+}*/
 

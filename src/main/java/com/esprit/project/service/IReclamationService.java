@@ -24,5 +24,6 @@ public interface IReclamationService {
 	  boolean isKindergardenReclamationExists(Long id);
 	  int CountProcessingReclamationByKinderGarden(Long id);
 	Reclamation findById(Long id);
+	void affecterReclamationAParent(Long recId, Long id);
 
 }

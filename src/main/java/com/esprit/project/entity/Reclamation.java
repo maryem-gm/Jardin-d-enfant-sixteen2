@@ -121,13 +121,13 @@ import javax.persistence.TemporalType;
 					+ ", senderReclamation=" + senderReclamation + ", date=" + date + ", kinderGarden=" + kinderGarden + "]";
 		}*/
 
-		/*public Parent getParent() {
+		public Parent getParent() {
 			return parent;
 		}
 
 		public void setParent(Parent parent) {
 			this.parent = parent;
-		}*/
+		}
 
 		public Reclamation(String subject, String description, String categoryOfReclamation, String senderReclamation,
 				KinderGarden kinderGarden) {

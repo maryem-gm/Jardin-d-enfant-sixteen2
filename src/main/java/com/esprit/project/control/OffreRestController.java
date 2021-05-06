@@ -1,6 +1,6 @@
 package com.esprit.project.control;
 
-import java.util.HashMap;
+/*import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -94,4 +94,4 @@ public class OffreRestController {
 						return offreService.getOffreByPrice();
 						}	
 
-}
+}*/

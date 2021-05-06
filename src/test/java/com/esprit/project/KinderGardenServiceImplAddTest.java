@@ -25,7 +25,7 @@ public class KinderGardenServiceImplAddTest {
 	@Autowired 
 	IKinderGardenService kinderGarden;
 	
-	@Test
+	/*@Test
 	public void test() throws ParseException, java.text.ParseException {
 		KinderGarden kinderGarden1 = new KinderGarden(1, "kids", "study",93147141, "kidsstydy@esprit.tn", "kairouan",10);
 		kinderGarden.addKinderGarden(kinderGarden1);
@@ -37,5 +37,5 @@ public class KinderGardenServiceImplAddTest {
 	
 		
 	}
-
+*/
 }

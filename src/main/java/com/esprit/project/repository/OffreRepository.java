@@ -1,7 +1,7 @@
 package com.esprit.project.repository;
 
 
-import java.util.List;
+/*import java.util.List;
 
 import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -17,8 +17,8 @@ public interface OffreRepository extends JpaRepository<Offre,Long>  {
 	int getNbrParticipants(@Param("offreId") long offreId);
 //@Query(value = "SELECT * FROM `t_offre` WHERE `type_offre` like '%"+":typeOffre"+"%'", nativeQuery = true)
 	//List<Offre> findOffreByType(@Param("typeOffre") String typeOffre);
-//@Query("SELECT * FROM `t_offre` WHERE `type_offre` like '%:typeOffre%'")
-//public List<Offre> filterByTypeOffre(@Param("typeOffre")TypeOffre typeOffre);
+@Query("SELECT * FROM `t_offre` WHERE `type_offre` like '%:typeOffre%'")
+public List<Offre> filterByTypeOffre(@Param("typeOffre")TypeOffre typeOffre);
 //@Query(value = "SELECT * FROM t_offre WHERE type_offre like '%"+":typeOffre"+"%'", nativeQuery = true)
 @Query(value ="SELECT o FROM Offre o WHERE o.typeOffre = :typeOffre")
 List<Offre> findOffreByType(@Param("typeOffre") TypeOffre typeOffre);
@@ -29,4 +29,4 @@ List<Offre> findAll(Sort ascending);
 
 	
 	
-}
+}*/
